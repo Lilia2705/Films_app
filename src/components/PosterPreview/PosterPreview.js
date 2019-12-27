@@ -1,3 +1,4 @@
+//TODO Poster!!
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {film} from "../../actions/films.action";
