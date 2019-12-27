@@ -5,6 +5,7 @@ import {film} from "../../actions/films.action";
 import FilmListCard from "../FilmListCard/FilmsListCard";
 
 import './FilmsList.scss'
+import PosterPreview from "../PosterPreview/PosterPreview";
 
 const CN = 'films-list';
 

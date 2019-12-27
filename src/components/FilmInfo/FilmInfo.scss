@@ -1,0 +1,30 @@
+.film-info {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  &__item{
+    width: 240px;
+    height: fit-content;
+    margin-left: 22px;
+    margin-top: 46px;
+    margin-bottom: 22px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    padding: 15px;
+
+  }
+  &__title{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__date {
+    margin-top: 20px;
+  }
+
+  &__line{
+    margin-top: 15px;
+    color: #f0efee;
+    opacity: 30%;
+  }
+}
