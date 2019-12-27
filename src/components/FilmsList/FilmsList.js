@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {film} from "../../actions/films.action";
 
-import './FilmsList.scss'
+import {film} from "../../actions/films.action";
 import FilmListCard from "../FilmListCard/FilmsListCard";
 
+import './FilmsList.scss'
 
-const CN = 'films-list'
+const CN = 'films-list';
 
 class FilmsList extends Component {
     componentDidMount() {
@@ -18,25 +18,22 @@ class FilmsList extends Component {
         const {films} = this.props;
 
         return (
-            <div>
-                    <div >
-                   <FilmListCard/>
-                    <hr/>
-                </div>
+            <div className={CN}>
+                <FilmListCard/>
+                <hr/>
             </div>
 
         )
     }
 }
 
-
 function mapStateToProps(state) {
     return {
-         films: state.filmReducer.films
+        films: state.filmReducer.films
     }
 }
 
-function mapDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch) {
     return {
         getFilms: (list) => dispatch(film(list))
 
