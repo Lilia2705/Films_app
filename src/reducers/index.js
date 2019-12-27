@@ -5,4 +5,4 @@
 // export function genreReducer
 
 
-//TODO розібратися з експортом редюсерів!!
+//TODO export reducers from index!
