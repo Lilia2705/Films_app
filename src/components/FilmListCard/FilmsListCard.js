@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 
 import {film} from "../../actions/films.action";
 import FilmInfo from "../FilmInfo/FilmInfo";
-import PosterPreview from "../PosterPreview/PosterPreview";
+import PosterPreview from "../PosterPreview( don\'t use it/PosterPreview";
 import './FilmListCard.scss'
 
 
@@ -20,7 +20,6 @@ class FilmsListCard extends Component {
         const {films} = this.props;
         return (
             <div className={`${CN}__item`}>
-                {/*<PosterPreview/>*/}
                 <FilmInfo/>
             </div>
         )

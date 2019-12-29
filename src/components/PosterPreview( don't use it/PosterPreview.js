@@ -1,4 +1,4 @@
-//TODO Poster!!
+// TODO ADD THIS COMPONENT SOMEWHERE
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {film} from "../../actions/films.action";
@@ -16,7 +16,7 @@ class PosterPreview extends Component {
             <div>
                 {films.map(el =>
                     <div>
-                        <img src={`https://image.tmdb.org/t/p/w500 + {el.poster_path}`} alt='Poster'/>
+                        <img src={`https://image.tmdb.org/t/p/w200${el.poster_path}`} alt='Poster'/>
                     </div>
                 )}
             </div>

@@ -2,6 +2,7 @@
   display: inline-flex;
   flex-wrap: wrap;
 
+
   &__item{
     width: 240px;
     height: fit-content;
@@ -17,6 +18,9 @@
     margin-bottom: 20px;
     text-align: center;
   }
+  //&_img img{
+  //  width: 240px;
+  //}
 
   &__date {
     margin-top: 20px;
