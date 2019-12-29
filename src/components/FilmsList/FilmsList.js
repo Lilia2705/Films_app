@@ -4,8 +4,7 @@ import {connect} from "react-redux";
 import {film} from "../../actions/films.action";
 import FilmListCard from "../FilmListCard/FilmsListCard";
 
-import './FilmsList.scss'
-import PosterPreview from "../PosterPreview( don\'t use it/PosterPreview";
+
 
 const CN = 'films-list';
 
